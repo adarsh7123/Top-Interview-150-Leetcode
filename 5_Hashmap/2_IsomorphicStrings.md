@@ -111,4 +111,5 @@ public:
 ---
 
 This additional optimal solution uses unordered maps `s_to_t` and `t_to_s` to map characters from `s` to `t` and vice versa. It iterates through both strings simultaneously and checks if the mappings are consistent. If they are inconsistent, it returns false. Otherwise, it returns true.
+
 ---
